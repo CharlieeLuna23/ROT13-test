@@ -1,0 +1,77 @@
+body {
+  height: 100vh;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.input-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  width: 97%;
+  height: 100px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
+.no-outline:focus{
+  outline: none;
+}
+
+.result-div {
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result > h2 {
+  margin: 0;
+}
+
+.result {
+  margin: 0;
+}
+
+.breaking {
+  inline-size: 80%;
+  overflow-wrap: break-word;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 720px) {
+  body {
+    font-size: 18px;
+  }
+
+  .input-field {
+    font-size: 18px;
+  }
+}
